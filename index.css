@@ -1,0 +1,81 @@
+body{
+    background-image: url('/infin.jpg');
+    /* background-repeat: no-repeat; */
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::after{
+    background-image: url('/inf.jpg');
+}
+
+
+#root{
+    /* height: 100%; */
+    /* width: auto; */
+    margin: 100px;
+    border: solid purple 5px;
+    border-radius: 50px;
+    padding: 80px;
+    background-color: plum;
+    min-width: 300px;
+    max-width: 300px;
+    height: auto;
+    box-shadow: rgba(255, 0, 204, 0.35) 0px 5px 15px;
+}
+
+#signupDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    align-items: center;
+    padding: 20px;
+    border: solid;
+    background-color: rgb(140, 149, 249);
+    min-width: 200px;
+    max-width: 300px;
+    font-family:monospace;
+}
+
+#postDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+    background-color: rgb(103, 205, 248);
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.inputs{
+    margin: 5px;
+}
+
+#btn{
+    background-color: plum;
+    border: solid purple;
+    border-radius: 30%;
+    margin: 10px;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#postContent{
+    height: 100px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
